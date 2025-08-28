@@ -1,0 +1,100 @@
+h1{  color: gray;
+    color: pink;
+}
+h2{
+    color: gray;
+}
+.titulos{
+
+    color: gray;
+}
+h2{
+    color: pink;
+}
+ h3{
+    color: gray;
+    
+ }
+  span{
+
+    color: pink;
+  }
+   .primeira h2{
+
+    color: gray;
+   }
+
+   .segunda{
+
+    border: 2px solid pink;
+    padding: 5px;
+    margin-bottom: 2px;
+   }
+
+   a{
+     
+    display: block;
+   }
+
+   *{
+     margin: 20;
+     padding: 20;
+     box-sizing: border-box;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   body{
+  padding: 4px;
+  background-color:white;
+   } 
+
+   p{
+
+    padding-inline: 30px;
+   }
+
+   li:hover{
+
+    transform: scale(1.1);
+   }
+   h1{
+    color: black;
+   } 
+   h2{
+    color: palevioletred;
+   }
+
+   li{
+  color: gray;
+   }
+   main{
+    padding-right: 40px;
+   }
+   ul{
+    padding-inline: 4px;
+   }
+
+.topbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+.topbar a {
+  text-decoration: none;
+  color: plum
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.topbar a:hover {
+  color: pink; 
+}
+id{
+    croll-margin-top: 80px; 
+
+}
+  

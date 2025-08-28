@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Informativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topbar">
+        <h1 class="titulos" id="titulos">Site Informativo</h1>
+    <nav>
+      <ul>
+        <li><a href="#Cascata">Cascata</a></li>
+        <li><a href="#Especificidade">Especificidade</a></li>
+        <li><a href="#Combinadores">Combinadores</a></li>
+        <li><a href="#BoxModel">BoxModel</a></li>
+        <li><a href="#Display">Display</a></li>
+      </ul>
+    </nav>
+    <h2 id="Cascata">Cascata</h2>
+    <h3>Oque e uma Cascata no Css?</h3>
+    <p>A cascata no CSS é o processo que define qual estilo será aplicado a um elemento, levando em conta a importância da regra (!importantante), a especificidade do seletor, a origem do estilo e, em caso de empate, a ordem em que as regras aparecem no código.</p>
+    <h3>Para o que ela serve?</h3>
+    <p>A cascata no CSS serve para organizar e definir qual estilo deve prevalecer quando há várias regras aplicadas ao mesmo elemento. Ela garante que o navegador saiba a ordem de prioridade entre seletores, classes, IDs e regras marcadas como !importantante, evitando conflitos e permitindo que o desenvolvedor tenha controle sobre a aparência final da página de forma consistente e previsível.</p>
+    <h2 id="Especificidade">Especificidade</h2>
+    <h3>Oque e uma Especifisidade?</h3>
+    <p>A especificidade no CSS é a regra que define a prioridade de aplicação dos seletores quando mais de um estilo pode afetar o mesmo elemento. Ela funciona como uma hierarquia de força: seletores de elemento têm o menor peso, classes e pseudoclasses têm peso intermediário, IDs possuem maior prioridade e os estilos aplicados diretamente no HTML (inline) são ainda mais fortes. Além disso, a declaração !importantante pode sobrescrever todos os níveis, sendo usada apenas em casos específicos. Essa lógica garante que o navegador saiba qual estilo aplicar de forma consistente.</p>
+    <h3>Para o que ela serve?</h3>
+    <p>A especificidade no CSS serve para determinar qual regra de estilo deve ser aplicada quando múltiplas regras afetam o mesmo elemento. Ela ajuda a organizar e controlar a prioridade dos estilos, garantindo que seletores mais específicos, como IDs ou estilos inline, prevaleçam sobre seletores mais gerais, como tags ou classes. Dessa forma, a especificidade permite que o desenvolvedor tenha maior controle sobre a aparência final da página, evitando conflitos e mantendo a consistência visual.</p>
+    <h3>Usando está <span>frase como exemplo</span></h3>
+    <h2 id="Combinadores">Combinador</h2>
+    <h3>Oque e um Combinador?</h3>
+    <p>Um combinador no CSS é um recurso que permite definir a relação entre dois ou mais seletores, indicando ao navegador quais elementos devem ser estilizados com base em sua posição ou hierarquia no HTML. Existem diferentes tipos de combinadores: o descendente (espaço) seleciona elementos que estão dentro de outro elemento, o filho (>) seleciona apenas os filhos diretos, o adjacente (+) seleciona o próximo irmão imediato, e o geral de irmãos (~) seleciona todos os irmãos que vêm depois de um elemento específico. Dessa forma, os combinadores ajudam a aplicar estilos de forma precisa e organizada, controlando melhor como os elementos interagem entre si.</p>
+    <h3>Para o que serve?</h3>
+    <p>Os combinadores no CSS servem para selecionar elementos de forma mais precisa, permitindo aplicar estilos com base na hierarquia, posição ou relação entre os elementos no HTML. Isso facilita o controle sobre a aparência da página e evita a necessidade de adicionar classes ou IDs extras.</p>
+    <h2 id="BoxModel">Box Model</h2>
+    <h3>Oque e um Box Model?</h3>
+    <p>O box model é o modelo do CSS que define como os elementos são representados em forma de caixa, composta por quatro partes: conteúdo, padding (espaço interno), borda e margem (espaço externo). Ele serve para controlar tamanho e espaçamento dos elementos na página.</p>
+    <h3>Para o que serve?</h3>
+    <p>O box model serve para definir como cada elemento ocupa espaço em uma página web, controlando o tamanho, a largura, a altura e os espaçamentos internos e externos. Ele permite que o desenvolvedor ajuste o conteúdo, o preenchimento (padding), as bordas e as margens de forma organizada, garantindo que o layout fique bem estruturado, alinhado e visualmente consistente.</p>
+    <h2>Display</h2>
+    <h2 id="Display"></h2>
+    <p>A propriedade display no CSS serve para definir como um elemento deve se comportar no layout da página, determinando a forma como sua caixa será exibida e como interage com outros elementos. Com ela, é possível controlar se um elemento será exibido em bloco, ocupando toda a largura disponível, se ficará em linha, ocupando apenas o espaço do seu conteúdo, ou ainda se funcionará como um container mais avançado, como nos casos do flex e do grid. Dessa forma, o display é essencial para organizar e estruturar o visual de uma página web.</p>
+    <h3>Para oque serve?</h3>
+    <p>A propriedade display serve para controlar a forma como um elemento aparece e se organiza na página, definindo se ele ocupará toda a linha, ficará ao lado de outros elementos, será ocultado ou se funcionará como um container de layout (como no flex e no grid). Ela é essencial para estruturar e organizar o design de um site.</p>
+    <div>
+       <a href="">Usando está frase</a>
+        <strong>como exemplo</strong>
+    </div>
+</body>
+</html>
